@@ -1,0 +1,49 @@
+{
+  "name": "manrina_store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-lint",
+    "start": "prisma migrate deploy && next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "payments:listen": "stripe listen --forward-to http://localhost:3059/api/payments/webhook",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@massalabs/massa-web3": "^5.0.0-next",
+    "@massalabs/wallet-provider": "^3.0.0-next",
+    "@prisma/client": "^6.0.1",
+    "@tanstack/react-query": "^5.66.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.54.2",
+    "react-native-web": "^0.19.13",
+    "react-use": "^17.5.1",
+    "sharp": "^0.33.5",
+    "stripe": "^17.4.0",
+    "uuid": "^11.1.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.6",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "^18",
+    "@types/react-native-web": "^0.19.0",
+    "@types/web-push": "^3.6.4",
+    "babel-plugin-react-native-web": "^0.19.13",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "prettier": "^3.5.2",
+    "prisma": "^6.0.1",
+    "react-native": "^0.76.2",
+    "typescript": "5.6.3"
+  }
+}
