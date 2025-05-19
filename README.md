@@ -20,17 +20,27 @@ cd dApp_Manrina
 npm install
 ```
 ### 3. Modify the smart contract address
+Modify the contracts.ts file :  
 
+```bash
+cd dApp_Manrina/src/config/contracts.ts
+nano contracts.ts
+```
 
-### 3. Build the application
+insert you deployed smart contract address
+```bash
+export const CONTRACT_ADDRESS = "your_deployed_smart_contract";
+```
+
+### 4. Build the application
 ```bash
 npm run build
 ```
-### 4. Start the server
+### 5. Start the server
 ```bash
 npm run start
 ```
-### 5. Open the app in your browser
+### 6. Open the app in your browser
 
 Go to: http://localhost:3000
 
