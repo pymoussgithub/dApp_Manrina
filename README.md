@@ -11,8 +11,8 @@ Please follow the steps below to set up and run the project:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/pymoussgithub/dApp_Manrina.git
+cd dApp_Manrina
 ```
 
 ### 2. Install dependencies
