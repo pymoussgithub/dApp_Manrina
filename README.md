@@ -31,3 +31,6 @@ npm run start
 ### 5. Open the app in your browser
 
 Go to: http://localhost:3000
+
+### Note : 
+The .env file is already in the repository and correctly configured.
