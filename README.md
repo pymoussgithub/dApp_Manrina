@@ -33,4 +33,4 @@ npm run start
 Go to: http://localhost:3000
 
 ### Note : 
-The .env file is already in the repository and correctly configured.
+The .env file has to be added. Please ask Sébastien to get the .env file. 
