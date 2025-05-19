@@ -19,6 +19,8 @@ cd dApp_Manrina
 ```bash
 npm install
 ```
+### 3. Modify the smart contract address
+
 
 ### 3. Build the application
 ```bash
