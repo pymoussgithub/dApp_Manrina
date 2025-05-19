@@ -1,4 +1,4 @@
-export const CONTRACT_ADDRESS = "AS18MUXDRKk43sQYDPxa3XBH8uhtS19eW9hyCNEprQ4ZA9Fy5s92";
+export const CONTRACT_ADDRESS = "AS12ABXEU3pDztPbV4a7G4XkBSKr2bKjy98z4v7ZRNboifFAEjETR";
 
 export const PRODUCERS = {
     names: ['Michel Dupont', 'Jean Robert', 'Nicolas Thomas'],
