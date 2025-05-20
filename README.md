@@ -23,7 +23,7 @@ npm install
 Modify the contracts.ts file :  
 
 ```bash
-cd dApp_Manrina/src/config/contracts.ts
+cd src\config\
 nano contracts.ts
 ```
 
