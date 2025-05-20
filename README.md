@@ -20,14 +20,7 @@ cd dApp_Manrina
 npm install
 ```
 ### 3. Modify the smart contract address
-Modify the contracts.ts file :  
-
-```bash
-cd src\config\
-nano contracts.ts
-```
-
-insert your deployed smart contract address in the contracts.ts file
+Edit the src/config/contracts.ts file and insert your deployed smart contract address in the contracts.ts file
 ```bash
 export const CONTRACT_ADDRESS = "your_deployed_smart_contract";
 ```
