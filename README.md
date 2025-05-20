@@ -27,7 +27,7 @@ cd dApp_Manrina/src/config/contracts.ts
 nano contracts.ts
 ```
 
-insert you deployed smart contract address
+insert your deployed smart contract address in the contracts.ts file
 ```bash
 export const CONTRACT_ADDRESS = "your_deployed_smart_contract";
 ```
