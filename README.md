@@ -31,6 +31,7 @@ npm run build
 npm run start
 ```
 ### 6. Open the app in your browser
+Go to: http://localhost:3000
 
 ### Optional
 Edit the src/config/contracts.ts file and insert your deployed smart contract address in the contracts.ts file
@@ -38,4 +39,4 @@ Edit the src/config/contracts.ts file and insert your deployed smart contract ad
 export const CONTRACT_ADDRESS = "your_deployed_smart_contract";
 ```
 
-Go to: http://localhost:3000
+
